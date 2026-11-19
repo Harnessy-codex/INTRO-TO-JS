@@ -56,7 +56,32 @@ welcome();
     //PARAMETERS & ARGUMENTS.
 //A parameter is a variable placed inside a function's parentheses. It acts as a placeholder for information.
 function registeredParticipants(name, event){
+
     console.log(name + "has registered for " + event);
 }
 
-registeredParticipants("harnessy " , "Movie Night");
+registeredParticipants("harnessy " , "The Movie Night");
+
+
+        //THE RETURN STATEMENTS.
+//It calculates something and uses the result to use elsewhere
+//in our program. That's where the return comes in.
+function addNumber(a, b) {
+    return a + b;
+}
+
+let result = addNumber(10, 20);
+
+console.log(result);
+
+//Example two.
+function calculateTotal(price, quantity) {
+    return price * quantity;
+}
+
+let resultTotal = calculateTotal(20, 30);
+
+console.log(resultTotal)
+
+        //Function Expressions.
+//A function expression is when you create a function and store it inside a variable.
